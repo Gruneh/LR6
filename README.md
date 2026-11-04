@@ -43,35 +43,35 @@ git checkout -b report
 ## Ход работы
 ### 1. Создание форка и настройка Git
 Была выполнена настройка клиента git (имя пользователя и email), а также создан форк репозитория на GitHub.
-![Создание форка](screenshots/s1-forking.png)
-![Настройка Git](screenshots/s2-name-mail.png)
+<img src="screenshots/s1-forking.png" width="100%">
+<img src="screenshots/s2-name-mail.png" width="100%">
 
 ### 2. Клонирование репозитория и синхронизация
 Удаленный репозиторий был склонирован на компьютер. Затем был добавлен файл через веб-интерфейс GitHub и подтянуты изменения локально.
-![Клонирование](screenshots/s3-clone.png)
-![Синхронизация изменений](screenshots/s4-pull.png)
+<img src="screenshots/s3-clone.png" width="100%">
+<img src="screenshots/s4-pull.png" width="100%">
 
 ### 3. Просмотр истории и изменений
 Получена история операций для всех веток, а также просмотрены последние изменения.
-![Список веток](screenshots/s4-branches.png)
-![История коммитов](screenshots/s6-log.png)
-![Последние изменения](screenshots/s7-lastChange.png)
+<img src="screenshots/s4-branches.png" width="100%">
+<img src="screenshots/s6-log.png" width="100%">
+<img src="screenshots/s7-lastChange.png" width="100%">
 
 ### 4. Слияние веток и разрешение конфликта
 Была создана побочная ветка, в ней изменен файл. После переключения в master и изменения того же файла, при слиянии возник конфликт. Конфликт был разрешен вручную.
-![Статус до коммита](screenshots/s8-status.png)
-![Файл с конфликтом](screenshots/s9-mergeConflict.png)
+<img src="screenshots/s8-status.png" width="100%">
+<img src="screenshots/s9-mergeConflict.png" width="100%">
 После разрешения конфликта изменения были зафиксированы, а побочная ветка удалена.
 
 ### 5. Фиксация изменений и откат коммита
 Было сделано несколько коммитов. Затем выполнен откат последнего коммита с помощью команды git revert.
-![Дополнительные коммиты](screenshots/s10-commits.png)
-![История перед откатом](screenshots/s11-history.png)
-![Выполнение отката](screenshots/s12-revert.png)
+<img src="screenshots/s10-commits.png" width="100%">
+<img src="screenshots/s11-history.png" width="100%">
+<img src="screenshots/s12-revert.png" width="100%">
 
 ### 6. Создание ветки для отчета
 Для оформления отчета была создана отдельная ветка report.
-![Создание ветки отчета](screenshots/s13-newBranch.png)
+<img src="screenshots/s13-newBranch.png" width="100%">
 
 # История операций
 ```bash
